@@ -12,9 +12,7 @@ dependencies:
     - moviepy
     - pydub
     - vosk
-    - stable-whisper
+    - stable-ts
     - wave
-    - contextlib
     - regex
-    - tempfile
-    - hashlib
+    - mistralai

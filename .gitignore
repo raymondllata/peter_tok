@@ -2,6 +2,7 @@
 vosk*
 garb
 audio
+peter_griffin_audio
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

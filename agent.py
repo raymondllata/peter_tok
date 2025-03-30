@@ -83,9 +83,15 @@ class MistralAgent:
                 messages=messages,
             )
 
-            return response.choices[0].message.content
+            content = response.choices[0].message.content
+        
+            # Write only the content to script.txt
+            with open("script.txt", "w") as file:
+                file.write(content)
+                
+            return content
         except Exception as e:
-            print(f"Error in run method: {e}")
+            KeyError(f"Error in run method: {e}")
             return "I'm sorry, I encountered an error processing your request. Please try again."
         
 

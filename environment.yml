@@ -17,3 +17,4 @@ dependencies:
     - contextlib
     - regex
     - tempfile
+    - hashlib

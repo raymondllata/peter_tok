@@ -1,6 +1,7 @@
 from fish_audio_sdk import Session, TTSRequest, ReferenceAudio
 import os
 from dotenv import load_dotenv
+from fuzzy_json import FuzzyJsonStorage
 import hashlib
 
 def generate_speech_hash(speech_string, target_length=10):
@@ -19,7 +20,7 @@ def generate_speech_hash(speech_string, target_length=10):
     truncated_bytes = input_bytes[:target_length]
 
     # Generate SHA-256 hash of the input string
-    hash_object = hashlib.sha256(truncated_bytes.encode('utf-8'))
+    hash_object = hashlib.sha256(truncated_bytes)
     hash_hex = hash_object.hexdigest()
     
     # If the hash is shorter than target_length, pad with zeros
@@ -41,7 +42,7 @@ def generate_speech_hash(speech_string, target_length=10):
     # print(f"Original speech: {speech}")
     # print(f"Hash (length {len(hash_result)}): {hash_result}")
 
-def file_exists(model_name, speech_hash, output_dir="output"):
+def file_exists(model_name, speech_hash, output_dir="audio_model_output"):
     """
     Check if a file with the exact model name and speech hash exists.
     
@@ -58,26 +59,29 @@ def file_exists(model_name, speech_hash, output_dir="output"):
     
     return os.path.isfile(file_path)
 
-# Load environment variables from .env file
-def generate_speech(speech, model_id, model_name):
+# Generate the speech .mp3 file
+def generate_speech(speech, model_name):
     load_dotenv()
 
     # Access environment variables
     fish_api = os.getenv("fish_api")
-
     session = Session(fish_api)
-    PETER_GRIFFIN_MODEL_ID = os.getenv(model_id)
+    table_path = "fish/models.json"
+    storage = FuzzyJsonStorage.load_from_file(table_path)
+    PETER_GRIFFIN_MODEL_ID = storage.get(model_name)
     speech_hash = generate_speech_hash(speech, 10)
 
-    # Check if this file has been generated already (search output directory)
-    files = file_exists(model_name, speech_hash)
-    # Do not generate repeat files to save API information
-    if len(files) > 0:
-        print(f"This file has already been generated. To generate again, please delete the following file: %s", files[0])
-        return files[0]
-
     # Generate file
-    filename = model_name + speech_hash + ".mp3"
+    filename = f"{model_name}_{speech_hash}.mp3"
+    filename = os.path.join("audio_model_output", filename)
+
+    # Check if this file has been generated already (search output directory)
+    file_exist = file_exists(model_name, speech_hash)
+    # Do not generate repeat files to save API information
+    if file_exist:
+        print(f"This file has already been generated. To generate again, please delete the following file: %s", filename)
+        return filename
+
     with open(filename, "wb") as f:
         for chunk in session.tts(TTSRequest(
             reference_id=PETER_GRIFFIN_MODEL_ID,
@@ -89,23 +93,7 @@ def generate_speech(speech, model_id, model_name):
 
 
 if __name__ == "__main__":
-    default_speech = """\
-    alright. so uh. let's talk about the unix v6 file system. it's old but solid. real simple. real clean.  
-
-    first. you got the boot block. it kicks things off. like. without it. the system ain't wakin' up. then. there's the superblock. the big boss. it knows where everything is. mess that up. and uh. you're done. 
-
-    (break)  
-
-    now. files? they don't just sit somewhere. they got inodes. tiny little ID cards. holdin' all the details. name. size. permissions. even where the data is actually stored.  
-
-    then you got data blocks. that's where the real stuff lives. all your files. all your content. locked in those blocks.  
-
-    and uh. don't sleep on the free list. that's how the system keeps track of empty space. makin' sure new files got room to drop in. no free list. no new files.  
-
-    (long-break)  
-
-    so yeah. unix v6? old-school. but still the foundation for so much. keep your inodes tight. watch your superblock. and uh. don’t mess up your file system. 
-
-    (laugh)"""
-    model_id = "PETER_GRIFFIN_MODEL_ID"
-    generate_speech(default_speech, model_id)
+    with open("script.txt", 'r', encoding='utf-8') as f:
+        script = f.read()
+    model_name = "Peter Griffin"
+    generate_speech(script, model_name)

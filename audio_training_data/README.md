@@ -50,18 +50,6 @@ This script will:
 - Concatenate them into a single file called `training_voice.wav`
 - Clean up temporary files automatically
 
-## Step 4: Create Your Voice Model
-
-The script will output a single audio file that can be used with the Fish API to create your voice model.
-
-You can now run the Python script to create your voice model:
-
-```bash
-python create_voice_model.py
-```
-
-This will send your audio to the Fish API and create a new voice model. The model ID will be automatically added to your `.env` file for future use.
-
 ## Troubleshooting
 
 - If you encounter errors with special characters in filenames, rename your files to use only letters, numbers, and underscores

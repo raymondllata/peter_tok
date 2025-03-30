@@ -1,0 +1,895 @@
+1
+00:00:00,440 --> 00:00:00,560
+<font color="#00ff00">Alright,</font> listen up, everybody!
+
+2
+00:00:00,560 --> 00:00:00,760
+Alright, listen up, everybody!
+
+3
+00:00:00,760 --> 00:00:01,020
+Alright, <font color="#00ff00">listen up,</font> everybody!
+
+4
+00:00:01,020 --> 00:00:01,320
+Alright, listen up, everybody!
+
+5
+00:00:01,320 --> 00:00:01,420
+Alright, listen up, <font color="#00ff00">everybody!</font>
+
+6
+00:00:01,980 --> 00:00:02,300
+<font color="#00ff00">Today,</font>
+
+7
+00:00:02,300 --> 00:00:02,360
+<font color="#00ff00">we're</font> talkin' about the You-Nix Vee Six File System,
+
+8
+00:00:02,360 --> 00:00:02,460
+we're <font color="#00ff00">talkin'</font> about the You-Nix Vee Six File System,
+
+9
+00:00:02,460 --> 00:00:02,860
+we're talkin' about the You-Nix Vee Six File System,
+
+10
+00:00:02,860 --> 00:00:02,920
+we're talkin' <font color="#00ff00">about</font> the You-Nix Vee Six File System,
+
+11
+00:00:02,920 --> 00:00:03,160
+we're talkin' about <font color="#00ff00">the</font> You-Nix Vee Six File System,
+
+12
+00:00:03,160 --> 00:00:03,600
+we're talkin' about the <font color="#00ff00">You-Nix</font> Vee Six File System,
+
+13
+00:00:03,600 --> 00:00:03,780
+we're talkin' about the You-Nix Vee Six File System,
+
+14
+00:00:03,780 --> 00:00:04,120
+we're talkin' about the You-Nix <font color="#00ff00">Vee</font> Six File System,
+
+15
+00:00:04,120 --> 00:00:04,220
+we're talkin' about the You-Nix Vee <font color="#00ff00">Six</font> File System,
+
+16
+00:00:04,220 --> 00:00:04,340
+we're talkin' about the You-Nix Vee Six File System,
+
+17
+00:00:04,340 --> 00:00:04,620
+we're talkin' about the You-Nix Vee Six <font color="#00ff00">File</font> System,
+
+18
+00:00:04,620 --> 00:00:05,140
+we're talkin' about the You-Nix Vee Six File <font color="#00ff00">System,</font>
+
+19
+00:00:05,380 --> 00:00:05,480
+<font color="#00ff00">alright?</font>
+
+20
+00:00:05,900 --> 00:00:06,080
+<font color="#00ff00">Now,</font>
+
+21
+00:00:06,080 --> 00:00:06,200
+<font color="#00ff00">don't</font> you go gettin' all scared with those fancy words.
+
+22
+00:00:06,200 --> 00:00:06,320
+don't <font color="#00ff00">you</font> go gettin' all scared with those fancy words.
+
+23
+00:00:06,320 --> 00:00:06,460
+don't you <font color="#00ff00">go</font> gettin' all scared with those fancy words.
+
+24
+00:00:06,460 --> 00:00:06,760
+don't you go <font color="#00ff00">gettin'</font> all scared with those fancy words.
+
+25
+00:00:06,760 --> 00:00:06,880
+don't you go gettin' all scared with those fancy words.
+
+26
+00:00:06,880 --> 00:00:07,180
+don't you go gettin' <font color="#00ff00">all scared</font> with those fancy words.
+
+27
+00:00:07,180 --> 00:00:07,360
+don't you go gettin' all scared <font color="#00ff00">with</font> those fancy words.
+
+28
+00:00:07,360 --> 00:00:07,400
+don't you go gettin' all scared with those fancy words.
+
+29
+00:00:07,400 --> 00:00:07,540
+don't you go gettin' all scared with <font color="#00ff00">those</font> fancy words.
+
+30
+00:00:07,540 --> 00:00:08,000
+don't you go gettin' all scared with those <font color="#00ff00">fancy</font> words.
+
+31
+00:00:08,000 --> 00:00:08,320
+don't you go gettin' all scared with those fancy <font color="#00ff00">words.</font>
+
+32
+00:00:08,920 --> 00:00:09,020
+<font color="#00ff00">It's</font> just a way to organize stuff on your computer,
+
+33
+00:00:09,020 --> 00:00:09,100
+It's <font color="#00ff00">just</font> a way to organize stuff on your computer,
+
+34
+00:00:09,100 --> 00:00:09,260
+It's just <font color="#00ff00">a</font> way to organize stuff on your computer,
+
+35
+00:00:09,260 --> 00:00:09,400
+It's just a <font color="#00ff00">way</font> to organize stuff on your computer,
+
+36
+00:00:09,400 --> 00:00:09,520
+It's just a way <font color="#00ff00">to</font> organize stuff on your computer,
+
+37
+00:00:09,520 --> 00:00:09,840
+It's just a way to <font color="#00ff00">organize</font> stuff on your computer,
+
+38
+00:00:09,840 --> 00:00:10,280
+It's just a way to organize <font color="#00ff00">stuff</font> on your computer,
+
+39
+00:00:10,280 --> 00:00:10,480
+It's just a way to organize stuff <font color="#00ff00">on</font> your computer,
+
+40
+00:00:10,480 --> 00:00:10,620
+It's just a way to organize stuff on <font color="#00ff00">your</font> computer,
+
+41
+00:00:10,620 --> 00:00:11,020
+It's just a way to organize stuff on your <font color="#00ff00">computer,</font>
+
+42
+00:00:11,520 --> 00:00:11,620
+<font color="#00ff00">like</font> how I organize my fridge – chaos,
+
+43
+00:00:11,620 --> 00:00:11,860
+like <font color="#00ff00">how</font> I organize my fridge – chaos,
+
+44
+00:00:11,860 --> 00:00:12,020
+like how <font color="#00ff00">I</font> organize my fridge – chaos,
+
+45
+00:00:12,020 --> 00:00:12,380
+like how I <font color="#00ff00">organize</font> my fridge – chaos,
+
+46
+00:00:12,380 --> 00:00:12,760
+like how I organize <font color="#00ff00">my</font> fridge – chaos,
+
+47
+00:00:12,760 --> 00:00:13,060
+like how I organize my <font color="#00ff00">fridge</font> – chaos,
+
+48
+00:00:13,060 --> 00:00:13,580
+like how I organize my fridge <font color="#00ff00">–</font> chaos,
+
+49
+00:00:13,580 --> 00:00:13,940
+like how I organize my fridge – <font color="#00ff00">chaos,</font>
+
+50
+00:00:14,540 --> 00:00:14,640
+<font color="#00ff00">but</font> organized chaos!
+
+51
+00:00:14,640 --> 00:00:15,100
+but <font color="#00ff00">organized</font> chaos!
+
+52
+00:00:15,100 --> 00:00:15,620
+but organized <font color="#00ff00">chaos!</font>
+
+53
+00:00:16,220 --> 00:00:16,540
+<font color="#00ff00"> So, you</font> got your directories, right?
+
+54
+00:00:16,540 --> 00:00:16,700
+So, you <font color="#00ff00">got</font> your directories, right?
+
+55
+00:00:16,700 --> 00:00:16,860
+So, you got <font color="#00ff00">your</font> directories, right?
+
+56
+00:00:16,860 --> 00:00:17,480
+So, you got your <font color="#00ff00">directories,</font> right?
+
+57
+00:00:17,480 --> 00:00:17,640
+So, you got your directories, right?
+
+58
+00:00:17,640 --> 00:00:17,880
+So, you got your directories, <font color="#00ff00">right?</font>
+
+59
+00:00:18,320 --> 00:00:18,360
+<font color="#00ff00">Think</font> of 'em like folders.
+
+60
+00:00:18,360 --> 00:00:18,520
+Think <font color="#00ff00">of</font> 'em like folders.
+
+61
+00:00:18,520 --> 00:00:18,640
+Think of <font color="#00ff00">'em</font> like folders.
+
+62
+00:00:18,640 --> 00:00:18,840
+Think of 'em <font color="#00ff00">like</font> folders.
+
+63
+00:00:18,840 --> 00:00:19,240
+Think of 'em like <font color="#00ff00">folders.</font>
+
+64
+00:00:19,960 --> 00:00:20,300
+<font color="#00ff00">And inside</font> those folders, you got your files.
+
+65
+00:00:20,300 --> 00:00:20,620
+And inside <font color="#00ff00">those</font> folders, you got your files.
+
+66
+00:00:20,620 --> 00:00:21,320
+And inside those <font color="#00ff00">folders, you</font> got your files.
+
+67
+00:00:21,320 --> 00:00:21,380
+And inside those folders, you got your files.
+
+68
+00:00:21,380 --> 00:00:21,500
+And inside those folders, you <font color="#00ff00">got</font> your files.
+
+69
+00:00:21,500 --> 00:00:21,700
+And inside those folders, you got <font color="#00ff00">your</font> files.
+
+70
+00:00:21,700 --> 00:00:22,140
+And inside those folders, you got your <font color="#00ff00">files.</font>
+
+71
+00:00:22,720 --> 00:00:22,940
+<font color="#00ff00">Now,</font>
+
+72
+00:00:23,020 --> 00:00:23,340
+<font color="#00ff00">in You-Nix</font> Vee Six,
+
+73
+00:00:23,340 --> 00:00:23,680
+in You-Nix Vee Six,
+
+74
+00:00:23,680 --> 00:00:23,780
+in You-Nix <font color="#00ff00">Vee</font> Six,
+
+75
+00:00:23,780 --> 00:00:23,920
+in You-Nix Vee <font color="#00ff00">Six,</font>
+
+76
+00:00:24,020 --> 00:00:24,040
+<font color="#00ff00">you</font> gotta understand the tree structure.
+
+77
+00:00:24,040 --> 00:00:24,120
+you gotta understand the tree structure.
+
+78
+00:00:24,120 --> 00:00:24,220
+you <font color="#00ff00">gotta</font> understand the tree structure.
+
+79
+00:00:24,220 --> 00:00:24,700
+you gotta <font color="#00ff00">understand</font> the tree structure.
+
+80
+00:00:24,700 --> 00:00:24,960
+you gotta understand <font color="#00ff00">the</font> tree structure.
+
+81
+00:00:24,960 --> 00:00:25,080
+you gotta understand the tree structure.
+
+82
+00:00:25,080 --> 00:00:25,180
+you gotta understand the <font color="#00ff00">tree</font> structure.
+
+83
+00:00:25,180 --> 00:00:25,280
+you gotta understand the tree <font color="#00ff00">structure.</font>
+
+84
+00:00:26,080 --> 00:00:26,140
+<font color="#00ff00">You</font> got your root directory,
+
+85
+00:00:26,140 --> 00:00:26,300
+You <font color="#00ff00">got</font> your root directory,
+
+86
+00:00:26,300 --> 00:00:26,500
+You got <font color="#00ff00">your</font> root directory,
+
+87
+00:00:26,500 --> 00:00:26,540
+You got your root directory,
+
+88
+00:00:26,540 --> 00:00:26,680
+You got your <font color="#00ff00">root</font> directory,
+
+89
+00:00:26,680 --> 00:00:27,000
+You got your root <font color="#00ff00">directory,</font>
+
+90
+00:00:27,620 --> 00:00:27,840
+<font color="#00ff00">that's</font> like the big papa folder,
+
+91
+00:00:27,840 --> 00:00:27,860
+that's like the big papa folder,
+
+92
+00:00:27,860 --> 00:00:27,960
+that's <font color="#00ff00">like</font> the big papa folder,
+
+93
+00:00:27,960 --> 00:00:28,120
+that's like <font color="#00ff00">the</font> big papa folder,
+
+94
+00:00:28,120 --> 00:00:28,180
+that's like the big papa folder,
+
+95
+00:00:28,180 --> 00:00:28,300
+that's like the <font color="#00ff00">big</font> papa folder,
+
+96
+00:00:28,300 --> 00:00:28,680
+that's like the big <font color="#00ff00">papa</font> folder,
+
+97
+00:00:28,680 --> 00:00:29,040
+that's like the big papa <font color="#00ff00">folder,</font>
+
+98
+00:00:29,640 --> 00:00:30,060
+<font color="#00ff00">represented</font> by a slash.
+
+99
+00:00:30,060 --> 00:00:30,320
+represented <font color="#00ff00">by</font> a slash.
+
+100
+00:00:30,320 --> 00:00:30,480
+represented by <font color="#00ff00">a</font> slash.
+
+101
+00:00:30,480 --> 00:00:30,820
+represented by a <font color="#00ff00">slash.</font>
+
+102
+00:00:31,420 --> 00:00:31,640
+<font color="#00ff00"> Now,</font> inside that root directory,
+
+103
+00:00:31,640 --> 00:00:31,900
+Now, inside that root directory,
+
+104
+00:00:31,900 --> 00:00:32,160
+Now, <font color="#00ff00">inside that</font> root directory,
+
+105
+00:00:32,160 --> 00:00:32,380
+Now, inside that <font color="#00ff00">root</font> directory,
+
+106
+00:00:32,380 --> 00:00:32,740
+Now, inside that root <font color="#00ff00">directory,</font>
+
+107
+00:00:33,460 --> 00:00:33,540
+<font color="#00ff00">you</font> got other directories like bin,
+
+108
+00:00:33,540 --> 00:00:33,700
+you <font color="#00ff00">got</font> other directories like bin,
+
+109
+00:00:33,700 --> 00:00:33,980
+you got <font color="#00ff00">other</font> directories like bin,
+
+110
+00:00:33,980 --> 00:00:34,680
+you got other <font color="#00ff00">directories</font> like bin,
+
+111
+00:00:34,680 --> 00:00:34,920
+you got other directories <font color="#00ff00">like</font> bin,
+
+112
+00:00:34,920 --> 00:00:35,320
+you got other directories like <font color="#00ff00">bin,</font>
+
+113
+00:00:35,820 --> 00:00:36,420
+<font color="#00ff00">etc,</font>
+
+114
+00:00:36,540 --> 00:00:36,880
+<font color="#00ff00">and dev.</font>
+
+115
+00:00:37,400 --> 00:00:37,480
+<font color="#00ff00">Bin</font> is where all the executable files live –
+
+116
+00:00:37,480 --> 00:00:37,640
+Bin <font color="#00ff00">is</font> where all the executable files live –
+
+117
+00:00:37,640 --> 00:00:37,840
+Bin is <font color="#00ff00">where</font> all the executable files live –
+
+118
+00:00:37,840 --> 00:00:38,080
+Bin is where <font color="#00ff00">all</font> the executable files live –
+
+119
+00:00:38,080 --> 00:00:38,240
+Bin is where all <font color="#00ff00">the</font> executable files live –
+
+120
+00:00:38,240 --> 00:00:38,920
+Bin is where all the <font color="#00ff00">executable</font> files live –
+
+121
+00:00:38,920 --> 00:00:39,300
+Bin is where all the executable <font color="#00ff00">files</font> live –
+
+122
+00:00:39,300 --> 00:00:39,680
+Bin is where all the executable files <font color="#00ff00">live</font> –
+
+123
+00:00:39,680 --> 00:00:40,020
+Bin is where all the executable files live <font color="#00ff00">–</font>
+
+124
+00:00:40,280 --> 00:00:40,500
+<font color="#00ff00">that's</font> just a fancy word for files that do stuff.
+
+125
+00:00:40,500 --> 00:00:40,600
+that's <font color="#00ff00">just</font> a fancy word for files that do stuff.
+
+126
+00:00:40,600 --> 00:00:40,640
+that's just a fancy word for files that do stuff.
+
+127
+00:00:40,640 --> 00:00:40,740
+that's just <font color="#00ff00">a</font> fancy word for files that do stuff.
+
+128
+00:00:40,740 --> 00:00:41,100
+that's just a <font color="#00ff00">fancy</font> word for files that do stuff.
+
+129
+00:00:41,100 --> 00:00:41,240
+that's just a fancy word for files that do stuff.
+
+130
+00:00:41,240 --> 00:00:41,360
+that's just a fancy <font color="#00ff00">word</font> for files that do stuff.
+
+131
+00:00:41,360 --> 00:00:41,580
+that's just a fancy word <font color="#00ff00">for</font> files that do stuff.
+
+132
+00:00:41,580 --> 00:00:41,740
+that's just a fancy word for files that do stuff.
+
+133
+00:00:41,740 --> 00:00:41,980
+that's just a fancy word for <font color="#00ff00">files</font> that do stuff.
+
+134
+00:00:41,980 --> 00:00:42,220
+that's just a fancy word for files <font color="#00ff00">that</font> do stuff.
+
+135
+00:00:42,220 --> 00:00:42,400
+that's just a fancy word for files that <font color="#00ff00">do</font> stuff.
+
+136
+00:00:42,400 --> 00:00:42,950
+that's just a fancy word for files that do <font color="#00ff00">stuff.</font>
+
+137
+00:00:43,360 --> 00:00:43,460
+<font color="#00ff00">Etc</font> is where the system config files hang out.
+
+138
+00:00:43,460 --> 00:00:43,940
+Etc <font color="#00ff00">is</font> where the system config files hang out.
+
+139
+00:00:43,940 --> 00:00:44,160
+Etc is <font color="#00ff00">where</font> the system config files hang out.
+
+140
+00:00:44,160 --> 00:00:44,280
+Etc is where <font color="#00ff00">the</font> system config files hang out.
+
+141
+00:00:44,280 --> 00:00:44,420
+Etc is where the system config files hang out.
+
+142
+00:00:44,420 --> 00:00:44,640
+Etc is where the <font color="#00ff00">system</font> config files hang out.
+
+143
+00:00:44,640 --> 00:00:44,900
+Etc is where the system config files hang out.
+
+144
+00:00:44,900 --> 00:00:45,000
+Etc is where the system <font color="#00ff00">config</font> files hang out.
+
+145
+00:00:45,000 --> 00:00:45,520
+Etc is where the system config <font color="#00ff00">files</font> hang out.
+
+146
+00:00:45,520 --> 00:00:45,780
+Etc is where the system config files <font color="#00ff00">hang</font> out.
+
+147
+00:00:45,780 --> 00:00:46,040
+Etc is where the system config files hang <font color="#00ff00">out.</font>
+
+148
+00:00:46,480 --> 00:00:46,580
+<font color="#00ff00">And</font> dev?
+
+149
+00:00:46,580 --> 00:00:46,900
+And <font color="#00ff00">dev?</font>
+
+150
+00:00:47,340 --> 00:00:47,560
+<font color="#00ff00">Well,</font> that's where all the device files are.
+
+151
+00:00:47,560 --> 00:00:47,620
+Well, that's where all the device files are.
+
+152
+00:00:47,620 --> 00:00:47,760
+Well, <font color="#00ff00">that's</font> where all the device files are.
+
+153
+00:00:47,760 --> 00:00:47,800
+Well, that's where all the device files are.
+
+154
+00:00:47,800 --> 00:00:47,900
+Well, that's <font color="#00ff00">where</font> all the device files are.
+
+155
+00:00:47,900 --> 00:00:48,120
+Well, that's where <font color="#00ff00">all</font> the device files are.
+
+156
+00:00:48,120 --> 00:00:48,260
+Well, that's where all <font color="#00ff00">the</font> device files are.
+
+157
+00:00:48,260 --> 00:00:48,460
+Well, that's where all the device files are.
+
+158
+00:00:48,460 --> 00:00:48,580
+Well, that's where all the <font color="#00ff00">device</font> files are.
+
+159
+00:00:48,580 --> 00:00:49,040
+Well, that's where all the device <font color="#00ff00">files</font> are.
+
+160
+00:00:49,040 --> 00:00:49,140
+Well, that's where all the device files <font color="#00ff00">are.</font>
+
+161
+00:00:49,820 --> 00:00:50,000
+<font color="#00ff00">Don't</font> go messin' around in there unless you know what you're doin',
+
+162
+00:00:50,000 --> 00:00:50,140
+Don't <font color="#00ff00">go</font> messin' around in there unless you know what you're doin',
+
+163
+00:00:50,140 --> 00:00:50,600
+Don't go <font color="#00ff00">messin'</font> around in there unless you know what you're doin',
+
+164
+00:00:50,600 --> 00:00:50,820
+Don't go messin' around in there unless you know what you're doin',
+
+165
+00:00:50,820 --> 00:00:50,860
+Don't go messin' <font color="#00ff00">around</font> in there unless you know what you're doin',
+
+166
+00:00:50,860 --> 00:00:51,060
+Don't go messin' around <font color="#00ff00">in</font> there unless you know what you're doin',
+
+167
+00:00:51,060 --> 00:00:51,220
+Don't go messin' around in <font color="#00ff00">there</font> unless you know what you're doin',
+
+168
+00:00:51,220 --> 00:00:51,500
+Don't go messin' around in there <font color="#00ff00">unless</font> you know what you're doin',
+
+169
+00:00:51,500 --> 00:00:51,620
+Don't go messin' around in there unless you know what you're doin',
+
+170
+00:00:51,620 --> 00:00:51,720
+Don't go messin' around in there unless <font color="#00ff00">you</font> know what you're doin',
+
+171
+00:00:51,720 --> 00:00:51,880
+Don't go messin' around in there unless you <font color="#00ff00">know</font> what you're doin',
+
+172
+00:00:51,880 --> 00:00:52,060
+Don't go messin' around in there unless you know <font color="#00ff00">what</font> you're doin',
+
+173
+00:00:52,060 --> 00:00:52,280
+Don't go messin' around in there unless you know what <font color="#00ff00">you're</font> doin',
+
+174
+00:00:52,280 --> 00:00:52,480
+Don't go messin' around in there unless you know what you're <font color="#00ff00">doin',</font>
+
+175
+00:00:53,000 --> 00:00:53,360
+<font color="#00ff00">alright?</font>
+
+176
+00:00:53,740 --> 00:00:53,820
+<font color="#00ff00">You</font> don't want to be like Brian,
+
+177
+00:00:53,820 --> 00:00:54,000
+You <font color="#00ff00">don't</font> want to be like Brian,
+
+178
+00:00:54,000 --> 00:00:54,160
+You don't <font color="#00ff00">want</font> to be like Brian,
+
+179
+00:00:54,160 --> 00:00:54,280
+You don't want <font color="#00ff00">to</font> be like Brian,
+
+180
+00:00:54,280 --> 00:00:54,400
+You don't want to <font color="#00ff00">be</font> like Brian,
+
+181
+00:00:54,400 --> 00:00:54,580
+You don't want to be <font color="#00ff00">like</font> Brian,
+
+182
+00:00:54,580 --> 00:00:54,980
+You don't want to be like <font color="#00ff00">Brian,</font>
+
+183
+00:00:55,220 --> 00:00:55,420
+<font color="#00ff00">poking</font> around where he shouldn't be.
+
+184
+00:00:55,420 --> 00:00:55,760
+poking <font color="#00ff00">around</font> where he shouldn't be.
+
+185
+00:00:55,760 --> 00:00:56,060
+poking around <font color="#00ff00">where</font> he shouldn't be.
+
+186
+00:00:56,060 --> 00:00:56,220
+poking around where <font color="#00ff00">he</font> shouldn't be.
+
+187
+00:00:56,220 --> 00:00:56,600
+poking around where he <font color="#00ff00">shouldn't</font> be.
+
+188
+00:00:56,600 --> 00:00:57,200
+poking around where he shouldn't <font color="#00ff00">be.</font>
+
+189
+00:00:57,220 --> 00:00:57,320
+<font color="#00ff00"> And</font> inodes?
+
+190
+00:00:57,320 --> 00:00:57,860
+And <font color="#00ff00">inodes?</font>
+
+191
+00:00:58,360 --> 00:00:58,520
+<font color="#00ff00">Those</font> are like the ID cards for each file and directory.
+
+192
+00:00:58,520 --> 00:00:58,660
+Those <font color="#00ff00">are</font> like the ID cards for each file and directory.
+
+193
+00:00:58,660 --> 00:00:58,800
+Those are <font color="#00ff00">like</font> the ID cards for each file and directory.
+
+194
+00:00:58,800 --> 00:00:58,980
+Those are like <font color="#00ff00">the</font> ID cards for each file and directory.
+
+195
+00:00:58,980 --> 00:00:59,220
+Those are like the <font color="#00ff00">ID</font> cards for each file and directory.
+
+196
+00:00:59,220 --> 00:00:59,640
+Those are like the ID <font color="#00ff00">cards</font> for each file and directory.
+
+197
+00:00:59,640 --> 00:00:59,920
+Those are like the ID cards <font color="#00ff00">for</font> each file and directory.
+
+198
+00:00:59,920 --> 00:01:00,160
+Those are like the ID cards for <font color="#00ff00">each</font> file and directory.
+
+199
+00:01:00,160 --> 00:01:00,300
+Those are like the ID cards for each file and directory.
+
+200
+00:01:00,300 --> 00:01:00,540
+Those are like the ID cards for each <font color="#00ff00">file</font> and directory.
+
+201
+00:01:00,540 --> 00:01:00,720
+Those are like the ID cards for each file <font color="#00ff00">and</font> directory.
+
+202
+00:01:00,720 --> 00:01:01,320
+Those are like the ID cards for each file and <font color="#00ff00">directory.</font>
+
+203
+00:01:01,720 --> 00:01:01,820
+<font color="#00ff00">They</font> keep track of all the important info.
+
+204
+00:01:01,820 --> 00:01:02,040
+They <font color="#00ff00">keep</font> track of all the important info.
+
+205
+00:01:02,040 --> 00:01:02,360
+They keep <font color="#00ff00">track</font> of all the important info.
+
+206
+00:01:02,360 --> 00:01:02,620
+They keep track <font color="#00ff00">of</font> all the important info.
+
+207
+00:01:02,620 --> 00:01:02,760
+They keep track of <font color="#00ff00">all</font> the important info.
+
+208
+00:01:02,760 --> 00:01:02,940
+They keep track of all <font color="#00ff00">the</font> important info.
+
+209
+00:01:02,940 --> 00:01:03,420
+They keep track of all the <font color="#00ff00">important</font> info.
+
+210
+00:01:03,420 --> 00:01:04,070
+They keep track of all the important <font color="#00ff00">info.</font>
+
+211
+00:01:04,340 --> 00:01:04,540
+<font color="#00ff00"> So,</font>
+
+212
+00:01:04,580 --> 00:01:04,740
+<font color="#00ff00">that's</font> the You-Nix Vee Six File System in a nutshell.
+
+213
+00:01:04,740 --> 00:01:04,760
+that's the You-Nix Vee Six File System in a nutshell.
+
+214
+00:01:04,760 --> 00:01:04,860
+that's <font color="#00ff00">the</font> You-Nix Vee Six File System in a nutshell.
+
+215
+00:01:04,860 --> 00:01:05,300
+that's the <font color="#00ff00">You-Nix</font> Vee Six File System in a nutshell.
+
+216
+00:01:05,300 --> 00:01:05,420
+that's the You-Nix Vee Six File System in a nutshell.
+
+217
+00:01:05,420 --> 00:01:05,520
+that's the You-Nix <font color="#00ff00">Vee</font> Six File System in a nutshell.
+
+218
+00:01:05,520 --> 00:01:05,800
+that's the You-Nix Vee <font color="#00ff00">Six</font> File System in a nutshell.
+
+219
+00:01:05,800 --> 00:01:05,980
+that's the You-Nix Vee Six File System in a nutshell.
+
+220
+00:01:05,980 --> 00:01:06,140
+that's the You-Nix Vee Six <font color="#00ff00">File</font> System in a nutshell.
+
+221
+00:01:06,140 --> 00:01:06,540
+that's the You-Nix Vee Six File <font color="#00ff00">System</font> in a nutshell.
+
+222
+00:01:06,540 --> 00:01:06,720
+that's the You-Nix Vee Six File System <font color="#00ff00">in</font> a nutshell.
+
+223
+00:01:06,720 --> 00:01:06,800
+that's the You-Nix Vee Six File System in <font color="#00ff00">a</font> nutshell.
+
+224
+00:01:06,800 --> 00:01:07,250
+that's the You-Nix Vee Six File System in a <font color="#00ff00">nutshell.</font>

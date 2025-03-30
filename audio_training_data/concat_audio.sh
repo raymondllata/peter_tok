@@ -27,8 +27,21 @@ for file in *.mp3; do
     echo "file '$wav_file'" >> "$CONCAT_LIST"
 done
 
-# Output file
-OUTPUT_FILE="peter_griffin_training.wav"
+
+# Create output directory if it doesn't exist
+mkdir -p output
+
+# Ask for output filename
+echo "Enter the output filename (default: new_char.wav):"
+read user_filename
+
+# Use the provided name or the default if nothing was entered
+filename=${user_filename:-new_char.wav}
+
+# Set the full output path in the output directory
+OUTPUT_FILE="output/$filename"
+
+echo "Output will be saved as: $OUTPUT_FILE"
 
 # Concatenate all converted files in the list to create a new WAV file
 echo "Concatenating files to $OUTPUT_FILE..."

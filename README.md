@@ -108,7 +108,7 @@ To add a new character to the system:
 
 ### Option 1: Link to MP4 in the repository
 
-You can view a demo of PeterTok in action [here](./final_product_output/Peter Griffin_c27ad494a5992529f688fe96a77e7a6b.mp4).
+You can view a demo of PeterTok in action [here](https://github.com/raymondllata/peter_tok/blob/main/final_product_output/Peter%20Griffin_c27ad494a5992529f688fe96a77e7a6b.mp4).
 
 *Note: Be aware that GitHub has file size limits (typically 100MB), so you may need to compress your video.*
 

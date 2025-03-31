@@ -62,13 +62,14 @@ def generate_captions(audio_file, script_file):
     string_hash = extract_string(audio_file)
     print(string_hash)
     result.to_srt_vtt('caption_model_output/' + string_hash + '.srt')
+    return 'caption_model_output/' + string_hash + '.srt'
 
 
 
 # Example usage:
 if __name__ == "__main__":
     # try:
-        script = "script.txt"
+        script = "display_script.txt"
         audio = "audio_model_output/Peter Griffin_01ef0317c9.mp3"
         generate_captions(audio, script)
     # except:

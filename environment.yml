@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - numpy
   - pillow
@@ -16,3 +16,5 @@ dependencies:
     - wave
     - regex
     - mistralai
+    - git+https://github.com/fishaudio/fish-audio-python.git
+    - python-dotenv

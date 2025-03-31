@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from fuzzy_json import FuzzyJsonStorage
 import hashlib
 
-def generate_speech_hash(speech_string, target_length=10):
+def generate_speech_hash(speech_string, target_length=32):
     """
     Generate a hash for a speech string and ensure it's of the target length.
     
@@ -69,7 +69,7 @@ def generate_speech(speech, model_name):
     table_path = "fish/models.json"
     storage = FuzzyJsonStorage.load_from_file(table_path)
     PETER_GRIFFIN_MODEL_ID = storage.get(model_name)
-    speech_hash = generate_speech_hash(speech, 10)
+    speech_hash = generate_speech_hash(speech, 32)
 
     # Generate file
     filename = f"{model_name}_{speech_hash}.mp3"
@@ -93,7 +93,7 @@ def generate_speech(speech, model_name):
 
 
 if __name__ == "__main__":
-    with open("script.txt", 'r', encoding='utf-8') as f:
+    with open("phonetic_script.txt", 'r', encoding='utf-8') as f:
         script = f.read()
     model_name = "Peter Griffin"
     generate_speech(script, model_name)

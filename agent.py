@@ -9,7 +9,7 @@ from typing import Dict
 import re
 
 MISTRAL_MODEL = "mistral-large-latest"
-SYSTEM_PROMPT = "You are writing scripts for viral TikTok videos. Please conform to the specified character's linguistics. For any challenging words, please replace with phonetics (ie. Unix v6 -> You-Nix Vee Six). Use ... for large breaks in a speech. Any symbols that need to be read aloud, write their english name (ie '/' -> slash)"
+SYSTEM_PROMPT = "You are writing scripts for viral TikTok videos. Please conform to the specified character's linguistics. For any challenging words, please replace with phonetics (ie. Unix v6 -> You-Nix Vee Six). Use ... for large breaks in a speech. Any symbols that need to be read aloud, write their english name (ie '/' -> slash)."
 
 
 class MistralAgent:
@@ -64,7 +64,7 @@ class MistralAgent:
     #         print(f"Error in run method: {e}")
     #         return "I'm sorry, I encountered an error processing your request. Please try again."
         
-    async def script_gen(self, character_name, topic):
+    async def phonetic_script_gen(self, character_name, topic):
         # Apply rate limiting before making the API call
         # await self.rate_limit()
 
@@ -86,7 +86,37 @@ class MistralAgent:
             content = response.choices[0].message.content
         
             # Write only the content to script.txt
-            with open("script.txt", "w") as file:
+            with open("phonetic_script.txt", "w") as file:
+                file.write(content)
+                
+            return content
+        except Exception as e:
+            KeyError(f"Error in run method: {e}")
+            return "I'm sorry, I encountered an error processing your request. Please try again."
+        
+    async def display_script_gen(self, script):
+        # Apply rate limiting before making the API call
+        # await self.rate_limit()
+
+        message = f"Here is a script you generated. Replace all the phonetic sections with their real words. (ie. You-Nix Vee Six -> Unix v6): {script}"
+        
+        try:
+            # The simplest form of an agent
+            # Send the message's content to Mistral's API and return Mistral's response
+            messages = [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": message},
+            ]
+
+            response = await self.client.chat.complete_async(
+                model=MISTRAL_MODEL,
+                messages=messages,
+            )
+
+            content = response.choices[0].message.content
+        
+            # Write only the content to script.txt
+            with open("display_script.txt", "w") as file:
                 file.write(content)
                 
             return content
@@ -97,16 +127,23 @@ class MistralAgent:
 
 # Define an async main function
 async def main():
+    # Output script should be deposited in unique directory via hash
     character_name = "Peter Griffin"
     topic = "Unix V6 File System"
     agent = MistralAgent()
     
     # Now we can properly await the async method
-    script = await agent.script_gen(character_name, topic)
-    print("\nGenerated Script:")
+    script = await agent.phonetic_script_gen(character_name, topic)
+    print("\nGenerated Phonetic Script:")
     print("=" * 40)
     print(script)
     print("=" * 40)
+    display_script = await agent.display_script_gen(script)
+    print("\nGenerated Display Script:")
+    print("=" * 40)
+    print(display_script)
+    print("=" * 40)
+
 
 
 # Run the async main function

@@ -265,21 +265,32 @@ def overlay_audio_and_add_captions(video_path, audio_path, srt_path, output_path
         import traceback
         traceback.print_exc()
 
-def main():
-    # File paths
-    video_path = "test-video-five.mp4"  # Update with your actual video path
-    audio_path = "output1.mp3"  # Update with your actual audio path
-    srt_path = "helloword.srt"  # Update with your actual SRT file path
-    output_path = "output_video.mp4"
 
-    logo_path = "miles_morales.png"
+def remote_main(video_path, audio_path, srt_path, output_path, logo_path):
+
     logo_size = None
     if os.path.exists(logo_path):
         original_width, original_height = get_image_dimensions(logo_path)
         print(f"Logo dimensions: {original_width}x{original_height} pixels")
         logo_size = (original_width, original_height)
 
-    
+    overlay_audio_and_add_captions(video_path, audio_path, srt_path, output_path, logo_path, logo_size)
+
+
+def main():
+    # File paths
+    video_path = "video/test-video-five.mp4"  # Update with your actual video path
+    audio_path = "audio_model_output/Peter Griffin_01ef0317c9.mp3"  # Update with your actual audio path
+    srt_path = "caption_model_output/Peter Griffin_01ef0317c9.srt"  # Update with your actual SRT file path
+    output_path = "final_product_output/Peter Griffin_01ef0317c9.mp4"
+
+    logo_path = "logos/Peter Griffin.png"
+    logo_size = None
+    if os.path.exists(logo_path):
+        original_width, original_height = get_image_dimensions(logo_path)
+        print(f"Logo dimensions: {original_width}x{original_height} pixels")
+        logo_size = (original_width, original_height)
+
     overlay_audio_and_add_captions(video_path, audio_path, srt_path, output_path, logo_path, logo_size)
 
 if __name__ == "__main__":

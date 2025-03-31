@@ -98,7 +98,7 @@ class MistralAgent:
         # Apply rate limiting before making the API call
         # await self.rate_limit()
 
-        message = f"Here is a script you generated. Replace all the phonetic sections with their real words. (ie. You-Nix Vee Six -> Unix v6): {script}"
+        message = f"Here is a script you generated. Replace all the phonetic sections with their real words. (ie. You-Nix Vee Six -> Unix v6). Remove ... for large breaks in a speech. Any symbols that were intended to be read aloud, replace their english name with said symbol (ie slash -> '/').: {script}"
         
         try:
             # The simplest form of an agent

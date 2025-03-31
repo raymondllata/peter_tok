@@ -109,8 +109,8 @@ def create_caption_clips(subtitles, video_width, video_height):
             text_clip = TextClip(
                 text=text,
                 font_size=60,  # Slightly smaller font size for better fit
-                size=(int(video_width * 0.8), int(video_height * 0.2)),
-                font="Arial",  # Bold for better readability
+                size=(int(video_width * 0.8), int(video_height * 0.3)),
+                font="Futura",  # Bold for better readability
                 color="white",
                 bg_color=None,
                 stroke_color="black",
@@ -279,10 +279,12 @@ def remote_main(video_path, audio_path, srt_path, output_path, logo_path):
 
 def main():
     # File paths
+    id = "Peter Griffin_c27ad494a5992529f688fe96a77e7a6b"
+
     video_path = "video/test-video-five.mp4"  # Update with your actual video path
-    audio_path = "audio_model_output/Peter Griffin_01ef0317c9.mp3"  # Update with your actual audio path
-    srt_path = "caption_model_output/Peter Griffin_01ef0317c9.srt"  # Update with your actual SRT file path
-    output_path = "final_product_output/Peter Griffin_01ef0317c9.mp4"
+    audio_path = "audio_model_output/" + id + ".mp3"  # Update with your actual audio path
+    srt_path = "caption_model_output/" + id + ".srt"  # Update with your actual SRT file path
+    output_path = "final_product_output/" + id + ".mp4"
 
     logo_path = "logos/Peter Griffin.png"
     logo_size = None

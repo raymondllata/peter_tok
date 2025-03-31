@@ -70,7 +70,7 @@ def generate_captions(audio_file, script_file):
 if __name__ == "__main__":
     # try:
         script = "display_script.txt"
-        audio = "audio_model_output/Peter Griffin_01ef0317c9.mp3"
+        audio = "audio_model_output/Peter Griffin_07db47dcd28dc569c645294966a11157.mp3"
         generate_captions(audio, script)
     # except:
     #     import argparse
